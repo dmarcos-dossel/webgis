@@ -1,0 +1,40 @@
+{
+  "created": 1758590496237,
+  "description": "",
+  "id": "0",
+  "modified": 1758595031913,
+  "owner": "MarcosDassan",
+  "tags": [
+    "TLCGIS",
+    "Tallahassee - Leon County GIS",
+    "tallahassee",
+    "leon county",
+    "tabbed theme",
+    "experience builder",
+    "EXB",
+    "template",
+    "ArcGIS for Local Government",
+    "Local Government"
+  ],
+  "thumbnail": null,
+  "title": "WebMap Dossel",
+  "type": "Web Experience",
+  "snippet": "",
+  "typeKeywords": [
+    "EXB Experience",
+    "JavaScript",
+    "Ready To Use",
+    "status: Published",
+    "version:1.18.0",
+    "Web Application",
+    "Web Experience",
+    "Web Mapping Application",
+    "Web Page",
+    "Web Site"
+  ],
+  "portalUrl": "https://dsig.dosselambiental.com.br/portal",
+  "username": "MarcosDassan",
+  "name": "Custom Tabbed Experience By TLCGIS 1",
+  "isLocalApp": true,
+  "url": null
+}

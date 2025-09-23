@@ -1,0 +1,21 @@
+{
+  "1746458880961.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1746458880961.png",
+    "properties": {
+      "filename": "1746458880961.png",
+      "originalName": "TLCGIS_historical_Logo.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1746458880961.png",
+      "inlineSvg": false
+    }
+  },
+  "1758591272783.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1758591272783.png",
+    "properties": {
+      "filename": "1758591272783.png",
+      "originalName": "logo.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1758591272783.png",
+      "isUploaded": true,
+      "inlineSvg": false
+    }
+  }
+}
