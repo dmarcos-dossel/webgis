@@ -5530,7 +5530,7 @@
               "spacing": "8px"
             },
             "root": {
-              "bg": "var(--primary-600)"
+              "bg": "#000000"
             },
             "item": {
               "default": {
@@ -7091,7 +7091,7 @@
           },
           "variant": {
             "root": {
-              "bg": "var(--primary-600)"
+              "bg": "#000000"
             },
             "item": {
               "default": {
@@ -15053,7 +15053,7 @@
       "portalUrl": "https://dsig.dosselambiental.com.br/portal"
     }
   },
-  "timestamp": 1758594907496,
+  "timestamp": 1758638932380,
   "utilities": {
     "utility_1": {
       "id": "utility_1",

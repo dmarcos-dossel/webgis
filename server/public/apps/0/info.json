@@ -2,7 +2,7 @@
   "created": 1758590496237,
   "description": "",
   "id": "0",
-  "modified": 1758595031913,
+  "modified": 1758638932552,
   "owner": "MarcosDassan",
   "tags": [
     "TLCGIS",
@@ -30,11 +30,15 @@
     "Web Experience",
     "Web Mapping Application",
     "Web Page",
-    "Web Site"
+    "Web Site",
+    "publishVersion:1.18.0"
   ],
   "portalUrl": "https://dsig.dosselambiental.com.br/portal",
   "username": "MarcosDassan",
-  "name": "Custom Tabbed Experience By TLCGIS 1",
+  "name": "WebMap Dossel",
   "isLocalApp": true,
-  "url": null
+  "url": null,
+  "userRole": "org_admin",
+  "success": true,
+  "clearEmptyFields": true
 }
