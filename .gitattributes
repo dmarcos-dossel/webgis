@@ -1,0 +1,9 @@
+* text=auto
+*.sh   eol=lf
+*.ps1  eol=crlf
+*.bat  eol=crlf
+*.cmd  eol=crlf
+*.json eol=lf
+*.md   eol=lf
+*.js   eol=lf
+*.ts   eol=lf
