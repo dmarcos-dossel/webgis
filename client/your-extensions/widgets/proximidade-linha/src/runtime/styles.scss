@@ -1,0 +1,182 @@
+/* ===============================
+   Widget: Proximidade até Linha
+   Layout organizado + visual limpo
+   =============================== */
+
+.widget-proximidade-linha {
+  /* -----------------------------
+     Base
+     ----------------------------- */
+  padding: 12px;
+  background-color: var(--calcite-color-foreground-1, #fff);
+  color: var(--calcite-color-text-1, #1f1f1f);
+  font: 400 0.95rem/1.4 var(--calcite-sans-font-family, system-ui);
+
+  /* -----------------------------
+     1) Texto informativo (discreto)
+     ----------------------------- */
+  .wpl-info-text {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: var(--calcite-color-text-2, #555);
+    line-height: 1.4;
+  }
+  .wpl-info-text p { margin: 0; }
+
+  /* -----------------------------
+     2) Linha: Raio + Aplicar
+     ----------------------------- */
+  .wpl-row {
+    display: grid;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  /* label | input | botão aplicar */
+  .wpl-radius-row {
+    grid-template-columns: max-content 120px auto;
+  }
+
+  .wpl-label {
+    color: var(--calcite-color-text-2, #666);
+    font-weight: 600;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .wpl-input {
+    height: 34px;
+    padding: 0 10px;
+    border: 1px solid var(--calcite-color-border-2, #d8d8d8);
+    border-radius: 6px;
+    background-color: var(--calcite-color-foreground-1, #fff);
+    transition: border-color .15s ease, box-shadow .15s ease;
+    &:focus {
+      outline: none;
+      border-color: var(--calcite-color-brand, #007ac2);
+      box-shadow: 0 0 0 2px color-mix(in srgb, var(--calcite-color-brand, #007ac2) 22%, transparent);
+    }
+  }
+
+  .wpl-btn-primary {
+    height: 38px;               /* botão maior */
+    padding: 0 16px;
+    min-width: 112px;           /* largura mínima para dar presença */
+    border-radius: 8px;
+    font-weight: 700;
+    border: 1px solid transparent;
+    background-color: var(--calcite-color-brand, #007ac2);
+    color: var(--calcite-color-text-inverse, #fff);
+    transition: background-color .15s ease, transform .02s ease;
+    &:hover { background-color: var(--calcite-color-brand-hover, #00619b); }
+    &:active { transform: translateY(1px); }
+    &:disabled { opacity: .6; cursor: not-allowed; }
+  }
+
+  /* -----------------------------
+     3) Contadores + 4) Exportar
+     ----------------------------- */
+  /* cont1 | cont2 | espaço | exportar */
+  .wpl-counters-row {
+    grid-template-columns: auto auto 1fr auto;
+    column-gap: 12px;
+  }
+
+  .wpl-counter {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 30px;
+    padding: 0 8px;
+    border: 1px solid var(--calcite-color-border-2, #d8d8d8);
+    border-radius: 12px;
+    background-color: var(--calcite-color-foreground-2, #f5f5f5);
+  }
+  .wpl-counter-label {
+    color: var(--calcite-color-text-2, #666);
+    font-weight: 600;
+  }
+  .wpl-counter-value {
+    color: var(--calcite-color-text-1, #1f1f1f);
+    font-weight: 800;
+  }
+
+  .wpl-actions { justify-self: end; }
+
+  .wpl-btn-ghost {
+    height: 34px;
+    padding: 0 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    background-color: var(--calcite-color-foreground-1, #fff);
+    border: 1px solid var(--calcite-color-border-2, #d8d8d8);
+    color: inherit;
+    transition: background-color .15s ease;
+    &:hover { background-color: var(--calcite-color-foreground-2, #f5f5f5); }
+    &:disabled { opacity: .5; cursor: not-allowed; }
+  }
+
+  /* -----------------------------
+     5) Tabela de resultados
+     ----------------------------- */
+  .wpl-table-wrap {
+    margin-top: 6px;
+    max-height: 240px;
+    overflow: auto;
+    border: 1px solid var(--calcite-color-border-2, #d8d8d8);
+    border-radius: 6px;
+    background-color: var(--calcite-color-foreground-1, #fff);
+  }
+
+  .wpl-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.94rem;
+  }
+
+  .wpl-table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--calcite-color-foreground-1, #fff);
+    color: var(--calcite-color-text-2, #6a6a6a);
+    font-weight: 700;
+    border-bottom: 1px solid var(--calcite-color-border-2, #d8d8d8);
+    padding: 8px 10px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .wpl-table tbody td {
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--calcite-color-border-2, #e6e6e6);
+    vertical-align: middle;
+  }
+
+  .wpl-table tbody tr:nth-child(even) td {
+    background-color: color-mix(in srgb, var(--calcite-color-foreground-2, #f5f5f5) 55%, transparent);
+  }
+  .wpl-table tbody tr:hover td {
+    background-color: color-mix(in srgb, var(--calcite-color-brand, #007ac2) 4%, transparent);
+  }
+
+  /* -----------------------------
+     Responsividade (painel estreito)
+     ----------------------------- */
+  @media (max-width: 460px) {
+    .wpl-radius-row {
+      grid-template-columns: 1fr 1fr; /* label quebra para linha acima */
+    }
+    .wpl-label { grid-column: 1 / -1; }
+
+    .wpl-counters-row {
+      grid-template-columns: 1fr 1fr;  /* contadores lado a lado */
+    }
+    .wpl-actions {
+      grid-column: 1 / -1;
+      justify-self: start;
+      margin-top: 6px;                 /* exportar desce */
+    }
+  }
+}

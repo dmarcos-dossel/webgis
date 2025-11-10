@@ -428,5 +428,18 @@
     "fileFormat": "image/png",
     "originalWidth": 500,
     "originalHeight": 500
+  },
+  "1758725171599": {
+    "originalName": "Dossel - Logo Branca - Horizontal.png",
+    "fileName": "1758725171599.png",
+    "size": 73009,
+    "url": "${appResourceUrl}/images/widget_80/1758725171599.png",
+    "created": 1758725171599,
+    "resourcesPrefix": "images/widget_80",
+    "referredIds": [],
+    "originId": "1758725171599",
+    "fileFormat": "image/png",
+    "originalWidth": 3605,
+    "originalHeight": 1085
   }
 }

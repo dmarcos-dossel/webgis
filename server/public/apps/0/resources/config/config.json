@@ -2384,26 +2384,6 @@
     "layout_77": {
       "type": "FIXED",
       "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_51",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "62.00px",
-            "bottom": "58.6%",
-            "width": "100.0%",
-            "height": "31.00%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": true,
-              "right": false,
-              "top": false,
-              "bottom": true
-            }
-          }
-        },
         "1": {
           "type": "WIDGET",
           "widgetId": "widget_52",
@@ -2427,41 +2407,13 @@
         }
       },
       "order": [
-        "1",
-        "0"
+        "1"
       ]
     },
     "layout_78": {
       "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_51",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": false,
-              "top": false,
-              "bottom": false,
-              "width": "STRETCH",
-              "height": "STRETCH"
-            },
-            "hCenter": false,
-            "vCenter": false
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_101": {
       "type": "FIXED",
@@ -2506,12 +2458,12 @@
             }
           },
           "bbox": {
-            "left": "0px",
-            "right": "92.7%",
+            "left": "4px",
+            "right": "87.2%",
             "top": "0px",
-            "bottom": "94.0%",
-            "width": "7.3%",
-            "height": "45px"
+            "bottom": "93.6%",
+            "width": "12.4%",
+            "height": "48px"
           },
           "widgetId": "widget_80",
           "isPending": false
@@ -2545,7 +2497,7 @@
             "left": "0.0%",
             "right": "0.0%",
             "top": "0.0%",
-            "bottom": "93.8%",
+            "bottom": "93.7%",
             "width": "100.0%",
             "height": "47px"
           },
@@ -2555,7 +2507,9 @@
               "left": true,
               "top": false,
               "bottom": true
-            }
+            },
+            "vCenter": false,
+            "hCenter": false
           }
         },
         "5": {
@@ -2583,10 +2537,10 @@
       },
       "order": [
         "4",
+        "2",
         "1",
         "5",
-        "3",
-        "2"
+        "3"
       ],
       "setting": {
         "lockDescendants": true
@@ -4567,10 +4521,10 @@
           "type": "WIDGET",
           "widgetId": "widget_219",
           "bbox": {
-            "left": "42.00px",
-            "right": "128px",
-            "top": "50%",
-            "bottom": "17.5%",
+            "left": "37px",
+            "right": "138px",
+            "top": "19.9%",
+            "bottom": "24.7%",
             "width": "51.5%",
             "height": "26px"
           },
@@ -4578,11 +4532,12 @@
             "autoProps": {
               "left": false,
               "right": true,
-              "top": true,
-              "bottom": false,
+              "top": false,
+              "bottom": true,
               "width": "CUSTOM"
             },
-            "vCenter": true
+            "vCenter": false,
+            "hCenter": false
           }
         },
         "7": {
@@ -4614,9 +4569,9 @@
       "order": [
         "0",
         "6",
+        "7",
         "3",
-        "5",
-        "7"
+        "5"
       ]
     },
     "layout_171": {
@@ -4657,30 +4612,6 @@
     "layout_172": {
       "type": "FIXED",
       "content": {
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "lockParent": false,
-            "autoProps": {
-              "right": true,
-              "left": false,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": false,
-            "hCenter": true
-          },
-          "bbox": {
-            "left": "50%",
-            "right": "39.4%",
-            "top": "0px",
-            "bottom": "86.2%",
-            "width": "50.00px",
-            "height": "50.00px"
-          },
-          "widgetId": "widget_225"
-        },
         "2": {
           "type": "WIDGET",
           "setting": {
@@ -4692,15 +4623,15 @@
               "left": false
             },
             "vCenter": false,
-            "hCenter": true,
+            "hCenter": false,
             "lockParent": false
           },
           "bbox": {
-            "left": "50%",
-            "right": "0.0%",
-            "top": "85.00px",
-            "bottom": "68.7%",
-            "width": "95.00%",
+            "left": "2.4%",
+            "right": "2.6%",
+            "top": "76px",
+            "bottom": "68.5%",
+            "width": "95.0%",
             "height": "62px"
           },
           "widgetId": "widget_226",
@@ -4712,8 +4643,8 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "50.00px",
-            "bottom": "81.7%",
+            "top": "41px",
+            "bottom": "82.8%",
             "width": "100.0%",
             "height": "35px"
           },
@@ -4732,22 +4663,23 @@
           "type": "WIDGET",
           "widgetId": "widget_228",
           "bbox": {
-            "left": "50%",
-            "right": "2.7%",
-            "top": "148px",
-            "bottom": "55.7%",
-            "width": "90.00%",
-            "height": "40.00px"
+            "left": "5.0%",
+            "right": "5.0%",
+            "top": "138px",
+            "bottom": "59.4%",
+            "width": "90.0%",
+            "height": "40px"
           },
           "setting": {
             "autoProps": {
-              "right": true,
-              "left": false,
+              "right": false,
+              "left": true,
               "top": false,
               "bottom": true
             },
-            "hCenter": true,
-            "lockParent": true
+            "hCenter": false,
+            "lockParent": true,
+            "vCenter": false
           }
         },
         "9": {
@@ -4791,14 +4723,37 @@
             "vCenter": false,
             "hCenter": false
           }
+        },
+        "11": {
+          "type": "WIDGET",
+          "widgetId": "widget_251",
+          "bbox": {
+            "left": "5.0%",
+            "right": "5.0%",
+            "top": "188px",
+            "bottom": "47.9%",
+            "width": "90.0%",
+            "height": "40px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "hCenter": false,
+            "lockParent": true,
+            "vCenter": false
+          }
         }
       },
       "order": [
-        "1",
         "9",
         "3",
         "2",
         "4",
+        "11",
         "10"
       ],
       "label": "Default"
@@ -4841,30 +4796,6 @@
     "layout_174": {
       "type": "FIXED",
       "content": {
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "lockParent": false,
-            "autoProps": {
-              "right": true,
-              "left": false,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": false,
-            "hCenter": true
-          },
-          "bbox": {
-            "left": "50%",
-            "right": "39.4%",
-            "top": "0px",
-            "bottom": "86.2%",
-            "width": "50.00px",
-            "height": "50.00px"
-          },
-          "widgetId": "widget_225"
-        },
         "2": {
           "type": "WIDGET",
           "setting": {
@@ -4956,7 +4887,6 @@
         }
       },
       "order": [
-        "1",
         "3",
         "2",
         "4",
@@ -5178,12 +5108,12 @@
             "height": "64.00px"
           }
         },
-        "2": {
+        "3": {
           "type": "WIDGET",
-          "widgetId": "widget_250",
+          "widgetId": "widget_267",
           "bbox": {
-            "width": "422px",
-            "height": 637
+            "width": "432px",
+            "height": 650
           }
         }
       },
@@ -5191,7 +5121,7 @@
       "label": "Default",
       "order": [
         "1",
-        "2"
+        "3"
       ],
       "setting": {
         "space": 0
@@ -5301,14 +5231,6 @@
     },
     "layout_186": {
       "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_51",
-          "bbox": {
-            "width": "300px",
-            "height": "329px"
-          }
-        },
         "1": {
           "type": "WIDGET",
           "widgetId": "widget_52",
@@ -5316,13 +5238,39 @@
             "width": "300px",
             "height": "64.00px"
           }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_264",
+          "bbox": {
+            "width": "432px",
+            "height": 100
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_265",
+          "bbox": {
+            "width": "432px",
+            "height": "42px"
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_266",
+          "bbox": {
+            "width": "432px",
+            "height": 510
+          }
         }
       },
       "type": "COLUMN",
       "label": "Default",
       "order": [
         "1",
-        "0"
+        "2",
+        "3",
+        "4"
       ],
       "setting": {
         "space": 0
@@ -5653,7 +5601,7 @@
         },
         "isUseCustomMapState": false,
         "initialMapState": null,
-        "initialMapDataSourceID": "dataSource_4",
+        "initialMapDataSourceID": "dataSource_5",
         "scaleRange": null,
         "showPopupUponSelection": true,
         "popupDockPosition": "top-right",
@@ -5736,8 +5684,8 @@
       "label": "Map",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_4",
-          "mainDataSourceId": "dataSource_4"
+          "dataSourceId": "dataSource_5",
+          "mainDataSourceId": "dataSource_5"
         }
       ]
     },
@@ -9001,62 +8949,6 @@
         }
       }
     },
-    "widget_51": {
-      "uri": "widgets/arcgis/coordinates/",
-      "version": "1.18.0",
-      "offPanel": false,
-      "label": "Coordinates",
-      "config": {
-        "coordinateSystem": [
-          {
-            "id": "system-1",
-            "name": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-            "wkid": "3857",
-            "displayUnit": "",
-            "elevationUnit": "METRIC",
-            "crs": {
-              "name": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-              "wkid": 3857,
-              "wkt": "PROJCS['WGS_1984_Web_Mercator_Auxiliary_Sphere',GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Mercator_Auxiliary_Sphere'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',0.0],PARAMETER['Standard_Parallel_1',0.0],PARAMETER['Auxiliary_Sphere_Type',0.0],UNIT['Meter',1.0]]"
-            }
-          },
-          {
-            "id": "system-2",
-            "name": "NAD_1983_StatePlane_Florida_North_FIPS_0903_Feet",
-            "wkid": 2238,
-            "crs": {
-              "wkid": 2238,
-              "latestWkid": 2238,
-              "name": "NAD_1983_StatePlane_Florida_North_FIPS_0903_Feet",
-              "wkt": "PROJCS[\"NAD_1983_StatePlane_Florida_North_FIPS_0903_Feet\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",1968500.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-84.5],PARAMETER[\"Standard_Parallel_1\",29.58333333333333],PARAMETER[\"Standard_Parallel_2\",30.75],PARAMETER[\"Latitude_Of_Origin\",29.0],UNIT[\"Foot_US\",0.3048006096012192]]"
-            },
-            "displayUnit": "FOOT_US",
-            "elevationUnit": "IMPERIAL",
-            "datumWkid": "",
-            "datumName": ""
-          }
-        ],
-        "coordinateDecimal": 6,
-        "altitudeDecimal": 2,
-        "showSeparators": true,
-        "displayOrder": "XY",
-        "widgetStyle": "MODERN",
-        "mapInfo": {
-          "id": "18df20bfa1bd4f599c99e62b04422b03",
-          "title": "03: World Street Map - ESRI",
-          "wkid": 102100,
-          "label": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
-          "csUnit": "Meter"
-        },
-        "mapInfo2": {
-          "csUnit": ""
-        }
-      },
-      "id": "widget_51",
-      "useMapWidgetIds": [
-        "widget_7"
-      ]
-    },
     "widget_52": {
       "uri": "widgets/common/text/",
       "version": "1.18.0",
@@ -9099,15 +8991,15 @@
           "linkParam": {},
           "scale": "Fit",
           "imageParam": {
-            "url": "${appResourceUrl}/images/widget_80/1758591529130.png",
-            "originalUrl": "${appResourceUrl}/images/widget_80/1758591529130.png",
-            "fileName": "1758591529130.png",
-            "originalName": "logo.png",
+            "url": "${appResourceUrl}/images/widget_80/1758725171599.png",
+            "originalUrl": "${appResourceUrl}/images/widget_80/1758725171599.png",
+            "fileName": "1758725171599.png",
+            "originalName": "Dossel - Logo Branca - Horizontal.png",
             "imgSourceType": "BY_UPLOAD",
             "fileFormat": "image/png",
-            "originalId": "1758591529130",
-            "originalWidth": 500,
-            "originalHeight": 500
+            "originalId": "1758725171599",
+            "originalWidth": 3605,
+            "originalHeight": 1085
           },
           "imageDisplayQualityMode": "ORIGINAL",
           "imgSourceType": "",
@@ -9119,8 +9011,8 @@
       "id": "widget_80",
       "style": {
         "background": {
-          "color": "var(--primary-400)",
-          "fillType": "fill",
+          "color": "",
+          "fillType": "fit",
           "image": {
             "url": ""
           }
@@ -9257,7 +9149,7 @@
       "id": "widget_143",
       "style": {
         "background": {
-          "color": "var(--primary-400)",
+          "color": "var(--primary)",
           "fillType": "fill",
           "image": {
             "url": ""
@@ -11964,7 +11856,7 @@
       "version": "1.18.0",
       "config": {
         "placeholder": "<h5><strong style=\"color: var(--light);\">Double click to edit text</strong></h5>",
-        "text": "<p></p>",
+        "text": "<h5><strong style=\"color: var(--light);\">Dossel Ambienta﻿﻿l</strong></h5>",
         "style": {
           "color": "var(--light)",
           "wrap": false
@@ -12013,7 +11905,7 @@
               },
               "border": {
                 "type": "solid",
-                "color": "var(--light)",
+                "color": "#000000",
                 "width": "1px"
               },
               "text": {
@@ -12030,7 +11922,7 @@
                 "unit": "px"
               },
               "iconProps": {
-                "color": "var(--light)",
+                "color": "#000000",
                 "size": 14
               }
             },
@@ -12066,7 +11958,8 @@
           "useCustom": true
         }
       },
-      "id": "widget_223"
+      "id": "widget_223",
+      "useDataSources": []
     },
     "widget_224": {
       "uri": "widgets/layout/fixed/",
@@ -12076,7 +11969,7 @@
       "id": "widget_224",
       "style": {
         "background": {
-          "color": "var(--primary-500)",
+          "color": "#ffffff",
           "fillType": "fill",
           "image": {
             "url": ""
@@ -12095,47 +11988,17 @@
         }
       }
     },
-    "widget_225": {
-      "uri": "widgets/common/image/",
-      "version": "1.18.0",
-      "label": "Image - Links Header",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "url": "${appResourceUrl}/images/widget_225/1746458457330.png",
-            "originalUrl": "${appResourceUrl}/images/widget_225/1746458457330.png",
-            "fileName": "1746458457330.png",
-            "originalName": "Link1.png",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/png",
-            "originalId": "1746458457330",
-            "isUseCompress": false,
-            "originalWidth": 82,
-            "originalHeight": 82
-          },
-          "imageDisplayQualityMode": "ORIGINAL",
-          "imgSourceType": "",
-          "srcExpression": null
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_225"
-    },
     "widget_226": {
       "uri": "widgets/common/text/",
       "version": "1.18.0",
       "label": "Text - Links Description",
       "config": {
-        "text": "<p style=\"text-align: left;\"><span style=\"color: var(--light);\">﻿﻿Use these links to discover more Tallahassee - Leon County resources.</span></p>",
+        "text": "<p style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0);\"> Use os links abaixo para mais informações.</span></p>",
         "placeholder": "<p style=\"text-align: center;\"><span style=\"color: var(--light);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
-          "color": "var(--light)"
+          "color": "#000000"
         }
       },
       "id": "widget_226"
@@ -12145,11 +12008,11 @@
       "version": "1.18.0",
       "label": "Text - Links Header",
       "config": {
-        "text": "<h3 style=\"text-align: center;\"><span style=\"color: var(--light);\">Conheça mais em</span></h3>",
+        "text": "<h3 style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0);\">Conheça mais em</span></h3>",
         "placeholder": "<p><span style=\"color: var(--light);\">Double click to edit text</span></p>",
         "style": {
           "wrap": true,
-          "color": "var(--light)"
+          "color": "#000000"
         }
       },
       "id": "widget_227"
@@ -12626,36 +12489,215 @@
       "id": "widget_248",
       "useDataSources": []
     },
-    "widget_250": {
-      "uri": "widgets/arcgis/analysis/",
+    "widget_251": {
+      "uri": "widgets/common/button/",
       "version": "1.18.0",
-      "label": "Analysis",
+      "label": "Button - Link1 2",
       "config": {
-        "toolList": [
-          {
-            "id": "ba5219c0-9825-11f0-8b68-83eb500bd3de",
-            "type": "standard",
-            "toolName": "CreateBuffers",
-            "analysisEngine": "standard",
-            "config": {
-              "input": {
-                "selectFromMapLayer": false,
-                "allowBrowserLayers": false,
-                "allowDrawingOnTheMap": false,
-                "allowLocalFileUpload": false,
-                "allowServiceUrl": false,
-                "selectFromOtherWidget": false
-              },
-              "output": {
-                "addResultLayersToMapAuto": false,
-                "allowExportResults": false
-              },
-              "option": {}
-            }
+        "functionConfig": {
+          "text": "DSIG",
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1758591272783.png",
+              "properties": {
+                "filename": "1758591272783.png",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "logo.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1758591272783.png",
+                "size": 16,
+                "inlineSvg": false,
+                "isUploaded": true
+              }
+            },
+            "position": "LEFT"
+          },
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://dosselambiental.com.br/",
+            "expression": null
           }
-        ]
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "primary"
+          },
+          "useCustom": false
+        }
       },
-      "id": "widget_250",
+      "id": "widget_251",
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": "var(--light-300)",
+          "type": "solid",
+          "width": "2px"
+        }
+      }
+    },
+    "widget_264": {
+      "uri": "widgets/coord-to-point/",
+      "version": "1.0.0",
+      "label": "Coordenada → Ponto",
+      "config": {},
+      "id": "widget_264",
+      "useMapWidgetIds": [
+        "widget_7"
+      ]
+    },
+    "widget_265": {
+      "uri": "widgets/arcgis/coordinates/",
+      "version": "1.18.0",
+      "offPanel": true,
+      "label": "Coordinates",
+      "config": {
+        "coordinateSystem": [
+          {
+            "id": "system-1",
+            "name": "GCS_WGS_1984",
+            "wkid": 4326,
+            "crs": {
+              "wkid": 4326,
+              "latestWkid": 4326,
+              "name": "GCS_WGS_1984",
+              "wkt": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]"
+            },
+            "displayUnit": "",
+            "elevationUnit": "METRIC",
+            "datumWkid": "",
+            "datumName": ""
+          }
+        ],
+        "coordinateDecimal": 3,
+        "altitudeDecimal": 2,
+        "showSeparators": true,
+        "displayOrder": "YX",
+        "widgetStyle": "CLASSIC",
+        "mapInfo": {
+          "id": "e2ec6552f88a452695c4a693c9e440fb",
+          "title": "Áreas de restrição",
+          "wkid": 102100,
+          "label": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+          "csUnit": "Meter"
+        },
+        "mapInfo2": {
+          "csUnit": ""
+        }
+      },
+      "id": "widget_265",
+      "useMapWidgetIds": [
+        "widget_7"
+      ]
+    },
+    "widget_266": {
+      "uri": "widgets/arcgis/coordinate-conversion/",
+      "version": "1.18.0",
+      "label": "Coordinate Conversion",
+      "config": {
+        "inputSettings": {
+          "defaultCoordinate": "dd",
+          "format": "Y°N, X°E"
+        },
+        "outputSettings": [
+          {
+            "name": "address",
+            "label": "Address",
+            "defaultPattern": "",
+            "currentPattern": "",
+            "enabled": true,
+            "isCustom": false
+          },
+          {
+            "name": "dd",
+            "label": "DD",
+            "defaultPattern": "Y°‎N, X°‎E",
+            "currentPattern": "Y°‎N, X°‎E",
+            "enabled": true,
+            "isCustom": false
+          },
+          {
+            "name": "ddm",
+            "label": "DDM",
+            "defaultPattern": "Y°‎ A'N, X°‎ B'E",
+            "currentPattern": "Y°‎ A'N, X°‎ B'E",
+            "enabled": true,
+            "isCustom": false
+          },
+          {
+            "name": "dms",
+            "label": "DMS",
+            "defaultPattern": "Y°‎ A' B\"N, X°‎ C' D\"E",
+            "currentPattern": "Y°‎ A' B\"N, X°‎ C' D\"E",
+            "enabled": true,
+            "isCustom": false
+          },
+          {
+            "name": "xy",
+            "label": "Long-Lat",
+            "defaultPattern": "X°‎, Y°‎",
+            "currentPattern": "X°‎, Y°‎",
+            "enabled": true,
+            "isCustom": false
+          },
+          {
+            "name": "mgrs",
+            "label": "MGRS",
+            "defaultPattern": "Z S X Y",
+            "currentPattern": "Z S X Y",
+            "enabled": true,
+            "isCustom": false
+          },
+          {
+            "name": "usng",
+            "label": "USNG",
+            "defaultPattern": "Z S X Y",
+            "currentPattern": "Z S X Y",
+            "enabled": true,
+            "isCustom": false
+          },
+          {
+            "name": "utm",
+            "label": "UTM",
+            "defaultPattern": "ZB X Y",
+            "currentPattern": "ZB X Y",
+            "enabled": true,
+            "isCustom": false
+          }
+        ],
+        "addressSettings": {
+          "minCandidateScore": 100,
+          "maxSuggestions": 6,
+          "useUtilitiesGeocodeService": [],
+          "displayFullAddress": false,
+          "geocodeServiceUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer"
+        },
+        "generalSettings": {
+          "zoomScale": 50000,
+          "defaultPointSymbol": {
+            "type": "esriPMS",
+            "angle": 0,
+            "xoffset": 2,
+            "yoffset": 8,
+            "contentType": "image/png",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMU7nOPkAAA01SURBVGhD7Vn5c1X1HRVbRRMSo8QEAgmBSEIWkpCQkJCE7CRk3wMvhJAAMRuEJC/7BoEoQRbLowpURBChoYKgKGhV2mlrK3UXrWLFpT84/QPq2HHs6Tk373ZSp+1ojS90ppk5c+97ue/dz/me8znf7/e+G274/99/PwJ5rTtvK+1/2Hf18MnIsv4DYeWDh3yGXvhsyn//jZP0yYIW25Kirgf7V209eq68//ArlqGjVyxDx98o6T34fEH7Pltx9wOZk1Tat7ttYcveiJyWvefX7bmANTtPoWbPWVTfd844rtt7HuWDx1Hc8xMU9RxAftueyzmbRvK/3R0ceHVxz8GynJbdn6+//1k0PfRr1B+8hI0P/wrNR36H5kd+h5ZHX+b5K6g/8Dwqd4yicvgMyvuPIrtpx4gDy/xmtyrrPxyRVNXxl/qDv8TGI79B64lX0f3E++h8/B10/OwttPF128nX0PrY77H52Eto1vH4qyR4GRXbRqnYQds3u5ODrkqrGXiqYvgkOk+/x4J/i77zH6Dn3FV0kFD32ffQcfoKus68i45TV9B89CW0jb4O6+hbVO0VtB5/BeUDh2nHw+sdVO5/vk1+24+C48vbv9x05GUMXPgY/ec/xODFT8YIkUT7qbfQRUJSrO3EG8RrJEeSP7tinDcffRl3//g55G3eebVh5HnnSSeVu2mkYnH2emxirww++6lByjz2nL2K3qc+MNDNcynWTmWso29TzXcN0p2n36EV30D2xhGU9R7ImnRCWY3b+wPjc1Fre84g0v/0NQMi1n3uffSyaBUu6/U+yaNxfhUDT39kXNd3/hqv+Yipt5+kdrRNOqF8696dswJjUNJ72CDU++QHVOIKSbw/VuxTHxoE+njsk1pPfkgyH/N4DT1PXKU9P6Ud30NKdT/Sarr7J51Qad+BDu/gaATGl7AwjvyFT9kfY9bqOvMHdLKPVLChEl+rd3SuPuonSQ3Cxod+gfiVzUit6W6ddEIVw8cSIrPXwHm6D5at7sIgrTZw4RPDakZcP0aceIsE3zDivPnoZaNnOknO6LVnriG50orF2WuRvXlHzqQTUgEZtYOX/KPScaurO+Ism9FLq40Vy/hWGJx61yBl/SmJKfWojmHPc9eQ17IP3sGxstufspq2uV4XhCxDjy5JtLR+HppahmnuPghKLMKae08Z844KN8Be+cc5X6/f9wzCllfBfU4EYosbwHBpui7ImEWUdO9fl7jaioiMSszwC4WLxxzMW5iI2KI65LXthWXoBEp7DyGzbjvC0yxw9pgHT14XW1LHQGh/5Lohs2bkpHPF9uPFlfecOJPXshMJqzYiOq8aIUn5CIrNwPzIRPgwNHyDE+A5bxHcfYMxZ2EsonPXYpmlmdhsS66y3nhdELIMHVnDUX+7YugxWLYdZz/spAKDYE8hcXUbkle3In/z2HvLVjUhhQqm1vQh4+5B5Lfc90W+dVf6dUGEG7WbS3oeOFLSewAbbNoqnAX3OJwYh43iU6o6kLK2k8T6kdO0zSCV3TjMPhkGtwzEDhR27PvSsu3Y5PdN/YPP3lRgtV3MatrJPc7TqOU6rHzwYapznxrbIJRW3Yn09d3I2NBHJXaS1Hb+b5vWa8hpHkFmwxCKuvYj32oDV+qPVe85fcukKVXa8+BPkqt62OQnudx5gUuWfSiw3m8QMQjRTuk13Xw9gBX1gyhoGUFe8w5k1m/Rps4gnt10L893Y/XwKAra94vUiUkhZNlyrGJ57Rak1Azg7gdeRAl3nypwBUc/taYLuZtHkNWwFWlVVpLqos22oti6B4WEyMpuuVRpRf0Qz3fBsvVRVN7zOMnZsGZktN2hpPRwI69l12/jSjchv+MAmo9d5mTYPxYE9VvZ9M2GSlIio3ZgrH9IlHH+j94yFCTh5DVWDsIwd6yHUb3nKZT2H5H9vmh66JK3w0gx0QIy67Z8sShrHdbuetrYVi/KrMByFq++iGIMx6/caCRcNolkNQyyd6hQ1z5abCwscqggIxpRjPXldVv4fOGQYbs1O04jo24bKrY/OuAwQsWdtpLU6i7O7tV8LnCJO83L8ItMQkRmpaFQeMYqhKaXGXGdxabPbhqi1XahtOcBRTTyW3cbpMLTyw1CHBzk8v3Ke05xg/cC0tZvYT/ZLjmMUGG7rTGBtgpJLkPt/gvGQ4+54YmYGbCYk2iREQSxxbVUbZVhKRVf2mPDqsFDyGZMpzD5wjNWclWeY/SbMTdx3VfB+at611kkWNqQvmHwzw4lFFfWSEIl9PxhhsJzCE0tgcsdXnCfvQD+0ekGkcSKVsSVNyKutB6JLJiLThKtQ2haOd8z1mx8hnCI17VRrZVYOzKKmr0XEFPciOS1HY4jlNe6uzQ6vwb+MZmcNLtQvfsMG3vIWI+5unvDmcSmz74LvouWUYkylLbfi+rth4yekbLc6/BzHQbpJYUbcFdUGpdIa6n2RRR2HURMEQlVWa85TKHidlsYCf3Na0GkYZtsBkHlvSeNAt19/OHs5gnn22fCZbqIBSKhcBXyG3sQXVSPoKSVmBe5Aj4hyzBrwWLMnB9JLOJc9ggaDv0CS4qbsTinBssqrO86jJBuxBF+3SckBp7zIxDMLQK33/T/40yoQRYbQzKz4eI+G26ecwk/eMwJhW9YMrwCYzHdJ5BE/Ul+AWbcFWr02vq9F/nZEQTEF2BJQS3iy5vedCghjmitAsBjbjDu8ApgKCRhGXebBe33I4lK+UUmY7q3Pwv3Y18F4PaZOl+A22lFQYQ854ciIDaTfcZ5q37ECJmghFyjv1Y0bh91KCFOrjdm1A1cmMstgazl5ObBozeVCIbf4hQWlsdwyIBPaKxhLe+gGCoXz+1DrIF57C+/RUnwi0hDSMoqhKVbaN88Y7uhXtt45CWHrb7Nn0Cm6CeR9PV9H3kHx+BW9s2trh6Y6jQdU53d4XqnD9ULMfY9Xv6RJMR9UGgCZvPo5R9lYAYV8vQLw5xFKfCNSEEg1YnKrtLT06OOUkdkBG3CfkD8sLDz/gVpNT1v+tM6rtxy61mC020ecHIdCwYnN4bDHbMZFF5GrEtNl+lz4HLnXFoyGB6+YQyFKCZdOh+OVKGow/bipiO/cnEEoX8iwhveTGip7xScWDaLs/1DMYxg37ClcPX0gdsMXz79mYmp0zxwi9sMuHsHURElWgR3qiHso0A+Q1iIGf4RCFiahbiSBu6jbKcaDv7c7fskYyqio6EIMZW4lZhG6MnM7YQ74bG0pH4lZ/6LccX1CONEG5acjejMAoQnZmF+dCrmRaTCK4h9tDAZflGpCGE6xpUpAIb+yC1EnV15857fC6/xqtxkV0REbiOmE56EF+FDzCPuIub7hkSv4ERpy7y7//PKocOw9Nm+ym7Y8nlKpfWruLImJFVa/5rTdM+nXPI8SWVrA+OzPOyKa8A0cN/LT5VfJyNV5O077ERm8zhXBIggYiERTkQQkUSGv3/wB4kpaddKSy1PBAUE5cXExFjWWiotZUVluT4+PvrMTPvASGknQupr4L4XUmbjm8qIjFRREb6EPxFCLCKiiVginlhGJHI0tscsiUHc0jgE+QcN2v+v60RY5BcQUnUWcSfhRugnFJGSUrr/hCllqjPeZlLGJKNiwu1ERCKZSCMyCP0IvOLGKTeen+bsgtmz5vzNaarTBr6Xar9O1y+xD4RU8iOktkiZSilwpNKEkBpvNX2xrKDRU7+oV6RMmL0oqSEiIqFn0XmEfvxdOeWGKR+5THNBWFjYZ/b39f8VhCbMJGIpIbVESkqpFzVo6lHTehNKyEw03UA30g01msHEYiLBTkZF5hIFRBFRQlQSn7i6uCIkZOFrPC8mCu3EsnlcbicVw2M4oUHSYCkcvq7Sd7adGdHje0exLFsoAEIJ9YLUUWEqUKqYZEp5Xkb0EvuIDkLvjSelQZAFZT8FSCDhS8wgNA2ol0zbfacYNz8s/4qQkk0jJn//O0L66VBWkwIqWsULVjuZ8m9ASLZTYqpHTUITFg6mQhohk5AUUhrJcko2WS6OSCEUBFJJpArsxKRWI7HOTlKv9T9do2v1GQWJklEp+a8UmnBC4y2nHpIdfAklnEIhijATTo2uYJBaan71lJSRYiKh1yIiq8mmIqMB0XcowmVlPbZSD2nSVhBNqOWULmYoyM9uhGwnlZRIGlGTlNJKAZFEqC+UeipakBKCzvW+iKj39BmprH7UAPkSspsGTvOdnDEhE6zZQyYh03a6ibytETRXCAE8NydWFae5RYVKNREUVLygcymiVJMqspk+q3RT7yhBZWtTnQm12/hgMFWSBcaTUgFzCPWUiJlLH6mmYs3lj4gqxfRa70sRxb4+o88qqk0ybjzXFKEV/Hh1JiS2v76O04iZpHRjjaYmWllQRWmUVaB6QcXKRrKlCb2WGlq86lqTiL5DyykpY5KRK8Yvfb4zIX6fsYYySenLNWLjtw0qQH43icn/Iic7qrlVsBQUdC7ofamhcJF1RcSNkPIaLFOZCScjQv+Tf38HMj5k7OWK5X8AAAAASUVORK5CYII=",
+            "url": "https://static.arcgis.com/images/Symbols/Basic/BlueShinyPin.png",
+            "height": 24,
+            "width": 24
+          }
+        }
+      },
+      "id": "widget_266",
+      "useMapWidgetIds": [
+        "widget_7"
+      ]
+    },
+    "widget_267": {
+      "uri": "widgets/proximidade-linha/",
+      "version": "1.18.0",
+      "label": "Proximidade até Linha",
+      "config": {},
+      "id": "widget_267",
       "useMapWidgetIds": [
         "widget_7"
       ]
@@ -12925,14 +12967,14 @@
         "SMALL": "layout_78"
       },
       "icon": {
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 20 20\"><path fill=\"#000\" d=\"M12.5 5.46 9.616 2 6.73 5.46l.769.641 1.616-1.94v8.337L2.38 16.54l.616-2.645-.974-.227L1 18.056l4.5.213.047-.998-2.263-.108 6.34-3.803 6.8 3.825-2.354.216.091.996 4.486-.412-1.213-4.338-.963.27.712 2.548-7.067-3.976V4.162l1.615 1.94z\"></path></svg>",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M13 6.133c0 .598-.28 1.46-.825 2.51-.53 1.02-1.247 2.102-1.981 3.102A46 46 0 0 1 8 14.492a48 48 0 0 1-2.194-2.747c-.734-1-1.451-2.081-1.98-3.102C3.28 7.593 3 6.731 3 6.133 3 3.277 5.26 1 8 1s5 2.277 5 5.133m1 0c0 2.685-3.768 7.311-5.332 9.115C8.258 15.722 8 16 8 16s-.258-.279-.668-.751C5.768 13.444 2 8.817 2 6.133 2 2.746 4.686 0 8 0s6 2.746 6 6.133M10 5.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0m1 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0\" clip-rule=\"evenodd\"></path></svg>",
         "properties": {
-          "filename": "WidgetCoordinatesOutlined",
+          "filename": "Pin",
           "color": "var(--dark-800)",
-          "originalName": "outlined/brand/widget-coordinates.svg",
+          "originalName": "outlined/application/pin.svg",
           "path": [
-            "brandAndLogos",
-            "WidgetCoordinatesOutlined"
+            "general",
+            "mapPin"
           ],
           "isUploaded": false,
           "inlineSvg": true
@@ -15051,9 +15093,23 @@
       "sourceLabel": "Áreas de restrição",
       "itemId": "e2ec6552f88a452695c4a693c9e440fb",
       "portalUrl": "https://dsig.dosselambiental.com.br/portal"
+    },
+    "dataSource_5": {
+      "id": "dataSource_5",
+      "type": "WEB_MAP",
+      "sourceLabel": "Áreas de restrição",
+      "itemId": "e2ec6552f88a452695c4a693c9e440fb",
+      "portalUrl": "https://dsig.dosselambiental.com.br/portal"
+    },
+    "dataSource_6": {
+      "id": "dataSource_6",
+      "type": "WEB_MAP",
+      "sourceLabel": "Áreas de restrição",
+      "itemId": "e2ec6552f88a452695c4a693c9e440fb",
+      "portalUrl": "https://dsig.dosselambiental.com.br/portal"
     }
   },
-  "timestamp": 1758638932380,
+  "timestamp": 1762798579760,
   "utilities": {
     "utility_1": {
       "id": "utility_1",
