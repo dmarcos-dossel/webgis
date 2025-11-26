@@ -1,7 +1,10 @@
 # Ignorar tudo
 *
 
-# Permitir apenas a pasta do widget
+# Permitir o próprio arquivo .clineignore
+!.clineignore
+
+# Permitir a pasta client e suas subpastas necessárias
 !client/
 !client/your-extensions/
 !client/your-extensions/widgets/

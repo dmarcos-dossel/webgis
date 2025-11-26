@@ -89,7 +89,13 @@ export default function Widget(props: AllWidgetProps<any>) {
       rows,
       scannedLayersCount,
       radius,
-      { ...config, useGeodesicDistance: useGeodesicDistanceRuntime }
+      {
+        ...config,
+        useGeodesicDistance: useGeodesicDistanceRuntime,
+        logoUrl: props.config?.logoUrl,
+        useLocalLogo: props.config?.useLocalLogo,
+        localLogoFile: props.config?.localLogoFile
+      }
     )
   }
 
