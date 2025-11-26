@@ -1,0 +1,9 @@
+# Ignorar tudo
+*
+
+# Permitir apenas a pasta do widget
+!client/
+!client/your-extensions/
+!client/your-extensions/widgets/
+!client/your-extensions/widgets/proximidade-linha/
+!client/your-extensions/widgets/proximidade-linha/**

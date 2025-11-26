@@ -1,0 +1,24 @@
+{
+  "name": "coord-to-point",
+  "label": "Coordenada → Ponto",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.14.0",
+  "author": "Marcos",
+  "description": "Insere Lat/Long e plota um ponto no mapa.",
+  "defaultSize": {
+    "width": 320,
+    "height": 140
+  },
+  "translatedLocales": [
+    "en",
+    "pt-br"
+  ],
+  "tags": [
+    "map",
+    "coordenadas",
+    "input",
+    "ponto"
+  ],
+  "properties": {}
+}

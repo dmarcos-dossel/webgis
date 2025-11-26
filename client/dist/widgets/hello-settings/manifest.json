@@ -1,0 +1,16 @@
+{
+  "name": "hello-settings",
+  "label": "Hello Settings",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.18.0",
+  "translatedLocales": [
+    "en",
+    "pt-br"
+  ],
+  "defaultSize": {
+    "width": 300,
+    "height": 80
+  },
+  "properties": {}
+}
